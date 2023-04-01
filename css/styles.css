@@ -81,6 +81,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+.main-tel:hover,
+.main-tet:focus {
+  color: var(--hover-color);
+}
 /*---END MAIN NAVIGATION---*/
 /*---HERO TITLE AND BTN---*/
 
