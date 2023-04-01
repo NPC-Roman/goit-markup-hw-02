@@ -1,0 +1,216 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --web-herobtn-color: #4d5ae5; /*IRIS*/
+  --dark-text-color: #2e2f42; /*NAVY BLUE*/
+  --main-text-color: #434455; /*SLATE*/
+  --hover-color: #404bbf; /*OCEAN*/
+  --white-color: #ffffff; /*WHITE*/
+  --light-color: #f4f4fd; /*CLOUD*/
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--main-text-color);
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*---MAIN NAVIGATION---*/
+.logo-web {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--web-herobtn-color);
+}
+
+.logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-text-color);
+}
+
+.main-nav {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-text-color);
+}
+
+.main-nav:hover,
+.main-nav:focus {
+  color: var(--hover-color);
+}
+
+.main-mail {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.main-mail:hover,
+.main-mail:focus {
+  color: var(--hover-color);
+}
+
+.main-tel {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/*---END MAIN NAVIGATION---*/
+/*---HERO TITLE AND BTN---*/
+
+.hero-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--white-color);
+  background-color: var(--dark-text-color);
+}
+
+.hero-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+
+  color: var(--white-color);
+  background: var(--web-herobtn-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--hover-color);
+}
+/*---END HERO TITLE AND BTN---*/
+/*---TEXT---*/
+.suptitle-text {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-text-color);
+}
+
+.desc {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subject {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-text-color);
+}
+/*---END TEXT---*/
+/*---FOOTER---*/
+.footer-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
+
+.footer-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+/*---END FOOTER---*/
+
+/*---PORTFOLIO BREADCRUMBS---*/
+.breadcrumbs {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--web-herobtn-color);
+  background: var(--light-color);
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.breadcrumbs:hover,
+.breadcrumbs:focus {
+  color: var(--white-color);
+  background: var(--hover-color);
+}
+/*---END PORTFOLIO BREADCRUMBS---*/
+
+/*---BACKGROUND---*/
+.hero-background {
+  background-color: var(--dark-text-color);
+}
+
+.light-backgound {
+  background-color: var(--light-color);
+}
+
+.white-backgound {
+  background-color: var(--white-color);
+}
+/*---END BACKGROUND---*/
+
+.hidden {
+  visibility: hidden;
+}
