@@ -118,6 +118,17 @@ body {
 }
 /*---END HERO TITLE AND BTN---*/
 /*---TEXT---*/
+.subject {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-text-color);
+}
+
 .suptitle-text {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -133,17 +144,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.subject {
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--dark-text-color);
+  color: var(--main-text-color);
 }
 /*---END TEXT---*/
 /*---FOOTER---*/
@@ -164,12 +165,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-color);
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  display: flex;
-  align-items: center;
 }
 /*---END FOOTER---*/
 
