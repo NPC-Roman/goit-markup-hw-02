@@ -214,7 +214,3 @@ body {
 .hidden {
   visibility: hidden;
 }
-
-menu[type='list'] {
-  list-style: none;
-}
