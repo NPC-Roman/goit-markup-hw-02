@@ -7,6 +7,7 @@
   --hover-color: #404bbf; /*OCEAN*/
   --white-color: #ffffff; /*WHITE*/
   --light-color: #f4f4fd; /*CLOUD*/
+  --accent-color: #e7e9fc; /*CORNFLOWER*/
 }
 
 body {
@@ -172,7 +173,7 @@ body {
   color: var(--web-herobtn-color);
   background: var(--light-color);
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
 
   cursor: pointer;
